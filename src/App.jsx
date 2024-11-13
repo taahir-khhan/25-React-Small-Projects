@@ -1,10 +1,10 @@
-import { useState } from "react";
-import { Accordion } from "./components";
+import { Accordion, RandomColor } from "./components";
 
 function App() {
   return (
-    <div className="">
-      <Accordion />
+    <div>
+      {/* <Accordion /> */}
+      <RandomColor />
     </div>
   );
 }
