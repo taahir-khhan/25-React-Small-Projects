@@ -3,7 +3,7 @@ import { Accordion } from "./components";
 
 function App() {
   return (
-    <div className="h-screen w-full bg-gray-500 flex items-center justify-center">
+    <div className="">
       <Accordion />
     </div>
   );
