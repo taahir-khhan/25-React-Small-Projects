@@ -3,8 +3,8 @@ import { Accordion, RandomColor } from "./components";
 function App() {
   return (
     <div>
-      {/* <Accordion /> */}
-      <RandomColor />
+      <Accordion />
+      {/* <RandomColor /> */}
     </div>
   );
 }

@@ -60,10 +60,10 @@ function RandomColor() {
       </div>
       {
         <div
-          className="w-full h-[50vh] mt-5 flex items-center justify-center"
+          className="w-full h-[90vh] mt-5 flex items-center justify-center"
           style={{ backgroundColor: color }}
         >
-          <span className="text-xl text-white">{color}</span>
+          <span className="text-5xl text-white">{color}</span>
         </div>
       }
     </div>
