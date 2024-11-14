@@ -1,0 +1,45 @@
+.current__image {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.hide__image {
+  display: none;
+}
+
+.arrow {
+  position: absolute;
+  font-size: 2.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.arrow__left {
+  left: 2rem;
+}
+
+.arrow__right {
+  right: 2rem;
+}
+
+.inidicator {
+  position: absolute;
+  bottom: 1.5rem;
+}
+
+.current__indicator {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+  background-color: #fff;
+  margin: 0 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.inactive__indicator {
+  background-color: rgb(70, 70, 70);
+}

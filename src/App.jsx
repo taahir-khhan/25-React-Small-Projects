@@ -1,10 +1,22 @@
-import { Accordion, RandomColor, Revision } from "./components";
+import {
+  Accordion,
+  ImageSlider,
+  RandomColor,
+  Revision,
+  StarRating,
+} from "./components";
 
 function App() {
   return (
-    <div>
+    <div className="w-full h-screen flex items-center justify-center">
       {/* <Accordion /> */}
+
       {/* <RandomColor /> */}
+
+      <StarRating noOfStars={10} />
+
+      {/* <ImageSlider url="https://picsum.photos/v2/list" pages={1} limit={10} /> */}
+
       {/* <Revision /> */}
     </div>
   );
