@@ -4,20 +4,24 @@ function RandomColor() {
   const [typeOfColor, setTypeOfColor] = useState("hex");
   const [color, setColor] = useState("");
 
+  function randomUtitlity(length) {
+    return Math.floor(Math.random() * length);
+  }
+
   const randomHexColorGenerator = () => {
     const colorCode = "0123456789ABCDEF";
     let randomColor = "#";
 
     for (let i = 1; i <= 6; i++) {
-      randomColor += colorCode[Math.floor(Math.random() * colorCode.length)];
+      randomColor += colorCode[randomUtitlity(colorCode.length)];
     }
     setColor(randomColor);
   };
 
   const randomRGBColorGenerator = () => {
-    let r = Math.floor(Math.random() * 255);
-    let g = Math.floor(Math.random() * 255);
-    let b = Math.floor(Math.random() * 255);
+    let r = randomUtitlity(255);
+    let g = randomUtitlity(255);
+    let b = randomUtitlity(255);
 
     setColor(`rgb(${r}, ${g}, ${b})`);
   };
